@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px; /* Increase padding for more space inside the box */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    width: 80%; /* Adjust width to 80% of the viewport width */
+    max-width: 600px; /* Maximum width to ensure it doesn't get too large */
+    height: 80%; /* Adjust height to 80% of the viewport height */
+    max-height: 600px; /* Maximum height to ensure it doesn't get too large */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* Darker color for the title */
+}
+
+input {
+    padding: 8px; /* Slightly smaller padding */
+    font-size: 14px; /* Slightly smaller font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%; /* Reduced width for the input box */
+    max-width: 400px; /* Maximum width to ensure it doesn't get too large */
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 24px; /* Increase button size */
+    font-size: 18px;    /* Larger font size */
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    background-color: #4CAF50; /* Aesthetic green color */
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Space between the input and button */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555; /* Color for the weather information */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #333; /* Color for footer text */
+}
